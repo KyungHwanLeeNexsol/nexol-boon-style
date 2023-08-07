@@ -1,0 +1,68 @@
+@import "~tailwindcss/base";
+@import "~tailwindcss/components";
+@import "~tailwindcss/utilities";
+
+:root {
+  --bs-body-bg: 'white';
+  --bs-body-font-family: 'Noto Sans KR', sans-serif;
+  --bs-body-font-size: '14px';
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.5em;
+
+  /* 메인컬러 */
+  --boon_main_color_01: #ff7700;
+  --boon_main_color_02: #534741;
+
+  /* text컬러 */
+  --boon_text_color_01: #060b11;
+  --boon_text_color_02: #534741;
+  --boon_text_color_03: #fff; 
+
+  font-size: 14px;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+
+// Header 
+
+// SideBar
+aside {
+  strong{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+
+    svg{
+      margin-right: 10px;
+    }
+  }
+  ul.depth-1{
+    > li{
+      margin-bottom: 10px;
+
+      :last-child{
+        margin-bottom: 0;
+      }
+
+      ul.depth-2 {
+        li {
+          a {
+            display: block;
+            padding:5px 10px 5px 20px;
+            transition: all 0.2s;
+            font-size: var(--bs-body-font-size);
+    
+            :hover{
+              
+            }
+    
+            .on {
+              
+            }
+          }
+        }
+      }
+    }
+  }
+}
+ 
