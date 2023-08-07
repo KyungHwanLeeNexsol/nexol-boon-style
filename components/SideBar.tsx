@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
+import boon_logo from "../public/images/boon_logo.png";
 import { BsMenuButtonWideFill, BsMagic } from "react-icons/bs";
 
 export default function SideBar() {
   return (
-    <aside className="sidebar pt-3 sticky top-8 overflow-y-auto">
+    <aside className="sidebar w-72 pt-5 sticky top-8 overflow-y-auto">
       <ul className="depth-1">
         <li>
           <strong>

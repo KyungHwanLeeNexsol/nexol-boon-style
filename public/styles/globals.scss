@@ -23,13 +23,10 @@
   font-weight: 400;
 }
 
-// Header
-header{
-  
-} 
-
 // SideBar
 aside {
+  height: calc(100vh - 6rem);
+
   strong{
     display: flex;
     align-items: center;
@@ -51,7 +48,7 @@ aside {
         li {
           a {
             display: block;
-            padding:5px 10px 5px 20px;
+            padding:10px 10px 10px 20px;
             transition: all 0.2s;
             font-size: var(--bs-body-font-size);
     
